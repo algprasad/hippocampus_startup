@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: startup_node
+Description: Description of startup_node
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

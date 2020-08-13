@@ -1,0 +1,8 @@
+prefix=/home/alg/underwater_ws/src/hippocampus/startup_node/cmake-build-debug/devel
+
+Name: startup_node
+Description: Description of startup_node
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
