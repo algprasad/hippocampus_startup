@@ -14,8 +14,10 @@
     <arg name="est" default="ekf2"/>
     <arg name="vehicle" default="uuv_hippocampus"/>
     <arg name="msdf" default="uuv_hippocampus"/>
-    <arg name="world" default="$(find uuv_gazebo_worlds)/worlds/ocean_waves.world"/>
-    <arg name="sdf" default="$(find mavlink_sitl_gazebo)/models/$(arg msdf)/$(arg msdf).sdf"/>
+    <!-- <arg name="world" default="$(find uuv_gazebo_worlds)/worlds/ocean_waves.world"/> -->
+    <arg name="world" default="$(find startup_node)/worlds/reef.world"/>
+    <!-- <arg name="sdf" default="$(find mavlink_sitl_gazebo)/models/$(arg msdf)/$(arg msdf).sdf"/> -->
+    <arg name="sdf" default="$(find udrone_pid)/models/udrone/udrone.sdf"/>
 
     <!-- uuv_simulator related arguments -->
     <arg name="gui" default="true"/>
