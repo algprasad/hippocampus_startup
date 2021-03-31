@@ -4,77 +4,77 @@
     <generated>
       <config projectName="startup_node" targetName="geographic_msgs_generate_messages_cpp" />
       <config projectName="startup_node" targetName="tf2_msgs_generate_messages_lisp" />
-      <config projectName="startup_node" targetName="trajectory_msgs_generate_messages_lisp" />
+      <config projectName="startup_node" targetName="actionlib_msgs_generate_messages_py" />
       <config projectName="startup_node" targetName="gtest" />
       <config projectName="startup_node" targetName="gmock_main" />
-      <config projectName="startup_node" targetName="mav_msgs_generate_messages_cpp" />
       <config projectName="startup_node" targetName="mav_msgs_generate_messages_py" />
-      <config projectName="startup_node" targetName="gmock" />
+      <config projectName="startup_node" targetName="tf_generate_messages_cpp" />
       <config projectName="startup_node" targetName="sensor_msgs_generate_messages_nodejs" />
+      <config projectName="startup_node" targetName="roscpp_generate_messages_cpp" />
       <config projectName="startup_node" targetName="actionlib_generate_messages_py" />
       <config projectName="startup_node" targetName="tf2_msgs_generate_messages_cpp" />
       <config projectName="startup_node" targetName="tf_generate_messages_nodejs" />
       <config projectName="startup_node" targetName="rosgraph_msgs_generate_messages_py" />
-      <config projectName="startup_node" targetName="geometry_msgs_generate_messages_cpp" />
+      <config projectName="startup_node" targetName="mav_msgs_generate_messages_lisp" />
+      <config projectName="startup_node" targetName="trajectory_msgs_generate_messages_lisp" />
+      <config projectName="startup_node" targetName="tf2_msgs_generate_messages_py" />
       <config projectName="startup_node" targetName="actionlib_generate_messages_nodejs" />
       <config projectName="startup_node" targetName="std_msgs_generate_messages_cpp" />
-      <config projectName="startup_node" targetName="tf2_msgs_generate_messages_py" />
       <config projectName="startup_node" targetName="roscpp_generate_messages_eus" />
       <config projectName="startup_node" targetName="geographic_msgs_generate_messages_eus" />
       <config projectName="startup_node" targetName="tf2_msgs_generate_messages_eus" />
-      <config projectName="startup_node" targetName="rosgraph_msgs_generate_messages_nodejs" />
       <config projectName="startup_node" targetName="geographic_msgs_generate_messages_py" />
-      <config projectName="startup_node" targetName="nav_msgs_generate_messages_nodejs" />
+      <config projectName="startup_node" targetName="uuid_msgs_generate_messages_cpp" />
       <config projectName="startup_node" targetName="hippocampus_startup" />
       <config projectName="startup_node" targetName="uuid_msgs_generate_messages_py" />
-      <config projectName="startup_node" targetName="mavros_msgs_generate_messages_nodejs" />
+      <config projectName="startup_node" targetName="geometry_msgs_generate_messages_cpp" />
       <config projectName="startup_node" targetName="sensor_msgs_generate_messages_cpp" />
-      <config projectName="startup_node" targetName="mav_msgs_generate_messages_lisp" />
+      <config projectName="startup_node" targetName="tf_generate_messages_lisp" />
       <config projectName="startup_node" targetName="tf2_msgs_generate_messages_nodejs" />
-      <config projectName="startup_node" targetName="actionlib_msgs_generate_messages_py" />
-      <config projectName="startup_node" targetName="doxygen" />
+      <config projectName="startup_node" targetName="rosgraph_msgs_generate_messages_eus" />
+      <config projectName="startup_node" targetName="trajectory_msgs_generate_messages_cpp" />
+      <config projectName="startup_node" targetName="uuid_msgs_generate_messages_nodejs" />
       <config projectName="startup_node" targetName="geometry_msgs_generate_messages_nodejs" />
       <config projectName="startup_node" targetName="mavros_msgs_generate_messages_cpp" />
+      <config projectName="startup_node" targetName="actionlib_generate_messages_lisp" />
       <config projectName="startup_node" targetName="rosgraph_msgs_generate_messages_cpp" />
-      <config projectName="startup_node" targetName="tf_generate_messages_lisp" />
       <config projectName="startup_node" targetName="std_msgs_generate_messages_eus" />
       <config projectName="startup_node" targetName="mavros_msgs_generate_messages_lisp" />
+      <config projectName="startup_node" targetName="nav_msgs_generate_messages_nodejs" />
       <config projectName="startup_node" targetName="nav_msgs_generate_messages_lisp" />
       <config projectName="startup_node" targetName="std_msgs_generate_messages_nodejs" />
       <config projectName="startup_node" targetName="actionlib_msgs_generate_messages_cpp" />
       <config projectName="startup_node" targetName="roscpp_generate_messages_nodejs" />
-      <config projectName="startup_node" targetName="trajectory_msgs_generate_messages_nodejs" />
       <config projectName="startup_node" targetName="geometry_msgs_generate_messages_py" />
-      <config projectName="startup_node" targetName="sensor_msgs_generate_messages_py" />
-      <config projectName="startup_node" targetName="actionlib_generate_messages_lisp" />
-      <config projectName="startup_node" targetName="geometry_msgs_generate_messages_eus" />
       <config projectName="startup_node" targetName="nav_msgs_generate_messages_cpp" />
+      <config projectName="startup_node" targetName="uuid_msgs_generate_messages_eus" />
+      <config projectName="startup_node" targetName="std_msgs_generate_messages_py" />
+      <config projectName="startup_node" targetName="geometry_msgs_generate_messages_eus" />
       <config projectName="startup_node" targetName="sensor_msgs_generate_messages_eus" />
+      <config projectName="startup_node" targetName="mavros_msgs_generate_messages_nodejs" />
       <config projectName="startup_node" targetName="tf_generate_messages_py" />
       <config projectName="startup_node" targetName="std_msgs_generate_messages_lisp" />
       <config projectName="startup_node" targetName="mavros_msgs_generate_messages_eus" />
       <config projectName="startup_node" targetName="trajectory_msgs_generate_messages_eus" />
-      <config projectName="startup_node" targetName="uuid_msgs_generate_messages_nodejs" />
+      <config projectName="startup_node" targetName="sensor_msgs_generate_messages_py" />
       <config projectName="startup_node" targetName="actionlib_msgs_generate_messages_nodejs" />
       <config projectName="startup_node" targetName="mavros_msgs_generate_messages_py" />
-      <config projectName="startup_node" targetName="tf_generate_messages_cpp" />
+      <config projectName="startup_node" targetName="doxygen" />
       <config projectName="startup_node" targetName="mav_msgs_generate_messages_nodejs" />
-      <config projectName="startup_node" targetName="std_msgs_generate_messages_py" />
-      <config projectName="startup_node" targetName="rosgraph_msgs_generate_messages_eus" />
+      <config projectName="startup_node" targetName="mav_msgs_generate_messages_cpp" />
       <config projectName="startup_node" targetName="actionlib_generate_messages_cpp" />
       <config projectName="startup_node" targetName="run_tests" />
       <config projectName="startup_node" targetName="download_extra_data" />
       <config projectName="startup_node" targetName="nav_msgs_generate_messages_py" />
-      <config projectName="startup_node" targetName="uuid_msgs_generate_messages_eus" />
+      <config projectName="startup_node" targetName="gmock" />
       <config projectName="startup_node" targetName="actionlib_msgs_generate_messages_eus" />
+      <config projectName="startup_node" targetName="trajectory_msgs_generate_messages_py" />
       <config projectName="startup_node" targetName="gtest_main" />
       <config projectName="startup_node" targetName="tests" />
       <config projectName="startup_node" targetName="roscpp_generate_messages_lisp" />
       <config projectName="startup_node" targetName="nav_msgs_generate_messages_eus" />
-      <config projectName="startup_node" targetName="sensor_msgs_generate_messages_lisp" />
-      <config projectName="startup_node" targetName="trajectory_msgs_generate_messages_py" />
-      <config projectName="startup_node" targetName="uuid_msgs_generate_messages_cpp" />
-      <config projectName="startup_node" targetName="trajectory_msgs_generate_messages_cpp" />
+      <config projectName="startup_node" targetName="trajectory_msgs_generate_messages_nodejs" />
+      <config projectName="startup_node" targetName="rosgraph_msgs_generate_messages_nodejs" />
       <config projectName="startup_node" targetName="roscpp_generate_messages_py" />
       <config projectName="startup_node" targetName="tf_generate_messages_eus" />
       <config projectName="startup_node" targetName="uuid_msgs_generate_messages_lisp" />
@@ -83,7 +83,7 @@
       <config projectName="startup_node" targetName="geographic_msgs_generate_messages_nodejs" />
       <config projectName="startup_node" targetName="clean_test_results" />
       <config projectName="startup_node" targetName="actionlib_msgs_generate_messages_lisp" />
-      <config projectName="startup_node" targetName="roscpp_generate_messages_cpp" />
+      <config projectName="startup_node" targetName="sensor_msgs_generate_messages_lisp" />
       <config projectName="startup_node" targetName="rosgraph_msgs_generate_messages_lisp" />
       <config projectName="startup_node" targetName="geometry_msgs_generate_messages_lisp" />
       <config projectName="startup_node" targetName="geographic_msgs_generate_messages_lisp" />
@@ -96,7 +96,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88fe7f0a-bfa2-4963-aa1b-262db1ffb465" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hippocampus_startup.dir/src/hippocampus_startup_node.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hippocampus_startup.dir/src/hippocampus_startup_node.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/atomic_configure/_setup_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/atomic_configure/_setup_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin/catkin_generated/version/package.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin/catkin_generated/version/package.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/generate_cached_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/generate_cached_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/installspace/_setup_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/installspace/_setup_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/setup_cached.sh" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/setup_cached.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/stamps/startup_node/_setup_util.py.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/stamps/startup_node/_setup_util.py.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/stamps/startup_node/interrogate_setup_dot_py.py.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/stamps/startup_node/interrogate_setup_dot_py.py.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/devel/_setup_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/devel/_setup_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/devel/lib/startup_node/hippocampus_startup" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/devel/lib/startup_node/hippocampus_startup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rviz/uuv_hippocampus_pointcloud.rviz" beforeDir="false" afterPath="$PROJECT_DIR$/rviz/uuv_hippocampus_pointcloud.rviz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hippocampus_startup_node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/hippocampus_startup_node.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -681,6 +695,11 @@
       <workItem from="1597793595061" duration="2043000" />
       <workItem from="1597799970061" duration="417000" />
       <workItem from="1598221955961" duration="28000" />
+      <workItem from="1601748624798" duration="155000" />
+      <workItem from="1601749907850" duration="4000" />
+      <workItem from="1614070174721" duration="948000" />
+      <workItem from="1614073638484" duration="593000" />
+      <workItem from="1614114915381" duration="22000" />
     </task>
     <servers />
   </component>

@@ -132,6 +132,7 @@ int main(int argc, char **argv){
 
     // Publisher and Subsriber stuff
     ros::Publisher pub_mavros_setpoint_attitude = nh.advertise<mavros_msgs::AttitudeTarget>("/mavros/setpoint_raw/attitude", 1000);
+    ros::Publisher pub_drone_pose_with_covariance = nh.advertise<geometry_msgs::PoseWithCovarianceStamped>("uuv_hippocampus/pose_with_covariance", 100);
 
     ros::Subscriber sub_mavros_global_position = nh.subscribe("/mavros/local_position/pose", 1000, mavrosGlobalPositionCallback);
 
@@ -206,6 +207,7 @@ int main(int argc, char **argv){
 
 
         pub_mavros_setpoint_attitude.publish(attitude_target_msg);
+        pub_drone_pose_with_covariance.publish(mav_pose_with_covariance);
 
 
 

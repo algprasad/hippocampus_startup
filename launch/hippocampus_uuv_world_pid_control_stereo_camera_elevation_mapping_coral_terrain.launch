@@ -14,7 +14,7 @@
     <arg name="est" default="ekf2"/>
     <arg name="vehicle" default="uuv_hippocampus"/>
     <arg name="msdf" default="uuv_hippocampus_stereo_camera"/>
-    <arg name="world" default="$(find uuv_gazebo_worlds)/worlds/ocean_waves_diver_following.world"/>
+    <arg name="world" default="$(find uuv_gazebo_worlds)/worlds/ocean_waves_diver_following_elevation_mapping_coral_terrain.world"/>
     <arg name="sdf" default="$(find mavlink_sitl_gazebo)/models/$(arg msdf)/$(arg msdf).sdf"/>
 
     <!-- uuv_simulator related arguments -->
@@ -25,7 +25,7 @@
 	
 
     <!-- uuv_simulator world files -->
-    <include file="$(find uuv_assistants)/launch/publish_world_ned_frame.launch"/>
+    <!--include file="$(find uuv_assistants)/launch/publish_world_ned_frame.launch"/>
     
     <node name="publish_world_models"
         pkg="uuv_assistants"
@@ -34,8 +34,8 @@
         <rosparam subst_value="true">
             meshes:
                 heightmap:
-                    mesh: package://uuv_gazebo_worlds/models/sand_heightmap/meshes/heightmap.dae
-                    model: sand_heightmap
+                    mesh: package://uuv_gazebo_worlds/models/sinosoidal_terrain/meshes/sinosoidal_terrain.stl
+                    model: sinosoidal_terrain
                 seafloor:
                     plane: [2000, 2000, 0.1]
                     pose:
@@ -57,7 +57,7 @@
                     pose:
                         position: [0, 1000, -50]
         </rosparam>
-    </node>
+    </node -->
 
     <group if="$(arg set_timeout)">
         <include file="$(find uuv_assistants)/launch/set_simulation_timer.launch">
@@ -123,6 +123,7 @@
 		pkg="tf"
 		type="static_transform_publisher"
 		args="0.2 0 0.03 0.5 -0.5 0.5 -0.5 base_link camera_link 1000"/>
+
    <!-- Static transform publisher for the eleavtion mapping camera-->
    <node name="elevation_mapping_camera_link_base_link_transform"
 		pkg="tf"
@@ -133,18 +134,21 @@
    <node ns="stereo" name="stereo_image_proc"
 		pkg="stereo_image_proc"
 		type="stereo_image_proc"/>
+   
    <node ns="elevation_mapping_stereo" name="stereo_image_proc"
 		pkg="stereo_image_proc"
 		type="stereo_image_proc"/>
    
    <!-- RViz with the required configuration file -->
-   <!--node type="rviz" name="rviz" pkg="rviz" args="-d $(find startup_node)/rviz/uuv_hippocampus_pointcloud.rviz" /-->
+   <!--node type="rviz" name="rviz" pkg="rviz" args="-d $(find startup_node)/rviz/uuv_hippocampus_pointcloud.rviz" / -->
 
    <!-- Elevation mapping -->
     <include file="$(find elevation_mapping_demos)/launch/uuv_hippocampus_elevation_map_demo.launch"/>
 
    <!-- Normal Vector Generation -->
     <include file="$(find normal_vector_generation)/launch/normal_vector_filters_demo.launch"/>
+
+
    
 
 
